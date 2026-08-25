@@ -75,8 +75,18 @@ export default function App() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         
+        {/* Hero Section */}
+        <div className="mb-10 max-w-2xl">
+          <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl mb-3">
+            Watch ads and look for what you want
+          </h2>
+          <p className="text-lg text-slate-600">
+            Browse our curated feed of the latest campaigns, products, and experiences.
+          </p>
+        </div>
+
         {/* Filtering & Navigation */}
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-8 gap-4">
           <div className="flex items-center gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto hide-scrollbar">
