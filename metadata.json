@@ -1,0 +1,6 @@
+{
+  "name": "Ad Viewer Gallery",
+  "description": "A clean interface for browsing and filtering simulated advertisements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
